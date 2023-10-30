@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,12 +8,7 @@ public class Projectile : MonoBehaviour
     [SerializeField] public Transform target;
     [SerializeField] private float speed = 10;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -28,8 +24,9 @@ public class Projectile : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            Destroy(gameObject);
-            Destroy(other.gameObject);
+            newEnemyHealth enemyHealth = other.GetComponent<newEnemyHealth>();
+            enemyHealth.Health--;
+            
         }
     }
 

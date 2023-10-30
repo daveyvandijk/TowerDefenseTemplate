@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eb3677140c72c7748855745e8493c090
+guid: 1994fdcedd4f84a4aa8d9b4c2d7647f8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 350
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,139 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bo-TowerDefence-enemy1_0
+      name: Bo-TowerDefence-enemy2_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 7
-        width: 325
-        height: 325
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2976986993e6ff5479ebbeff1ddf72f7
-      internalID: 478051185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bo-TowerDefence-enemy1_1
-      rect:
-        serializedVersion: 2
-        x: 463
-        y: 57
-        width: 157
-        height: 158
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f87ab732a125c0c448a93714def7e618
-      internalID: -919447968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bo-TowerDefence-enemy1_2
-      rect:
-        serializedVersion: 2
-        x: 718
-        y: 83
-        width: 70
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0af3d0ffc42965a4d8ea912646881a63
-      internalID: -89511975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bo-TowerDefence-enemy1_3
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 395
-        width: 81
-        height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a3043e55cbd82a4a8c65b86dacc7ed2
-      internalID: 207837004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bo-TowerDefence-enemy1_4
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 535
-        width: 39
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d90d6a123fef384080a190cee9c2697
-      internalID: -53566685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bo-TowerDefence-enemy1_5
-      rect:
-        serializedVersion: 2
-        x: 234
-        y: 556
-        width: 31
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 368567eaf28279b419d1e7413a107006
-      internalID: -23590042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bo-TowerDefence-enemy1_6
-      rect:
-        serializedVersion: 2
-        x: 999
-        y: 52
-        width: 433
-        height: 504
+        x: 671
+        y: 204
+        width: 646
+        height: 714
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,8 +131,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b806dbd72e37f44ba15d21ebcc282d4
-      internalID: -1583668943
+      spriteID: 55965ae7e05805843a97893cf1f56834
+      internalID: 400343983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bo-TowerDefence-enemy2_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 895
+        width: 157
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50477f7758792c449925b149779d15b8
+      internalID: -415009794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bo-TowerDefence-enemy2_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 758
+        width: 132
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bfbd52ef7ba4e4890d714276e40daa
+      internalID: -1866339502
       vertices: []
       indices: 
       edges: []
@@ -274,13 +190,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bo-TowerDefence-enemy1_3: 207837004
-      Bo-TowerDefence-enemy1_2: -89511975
-      Bo-TowerDefence-enemy1_4: -53566685
-      Bo-TowerDefence-enemy1_0: 478051185
-      Bo-TowerDefence-enemy1_5: -23590042
-      Bo-TowerDefence-enemy1_6: -1583668943
-      Bo-TowerDefence-enemy1_1: -919447968
+      Bo-TowerDefence-enemy2_0: 400343983
+      Bo-TowerDefence-enemy2_1: -415009794
+      Bo-TowerDefence-enemy2_2: -1866339502
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
