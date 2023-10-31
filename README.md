@@ -85,9 +85,11 @@ Je brengt je volledige codebase in kaart met behulp van een class diagram. Binne
 
 
 ## Product 8: Prototype test video
-Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je readme wat het idee van de mechanics is geweest wat je wilde testen en laat een korte video van de gameplay test zien. 
+Je hebt een werkend prototype gemaakt om een idee te testen.
+**ik probeerde me inspiratie te halen van de game balloons TD mijn iedeeen voor mijn mechanics zijn meerdere waves te maken**
+Omschrijf if je readme wat het idee van de mechanics is geweest wat je wilde testen en laat een korte video van de gameplay test zien. 
 
-[![example test video](https://ucarecdn.com/dbdc3ad0-f375-40ad-8987-9e6451b28b50/)](https://www.youtube.com/watch?v=CzzRML1swF0)
+[“testVideo“](/readmeVisuals/myTowerdefense%20-%20startscreen%20-%20Windows,%20Mac,%20Linux%20-%20Unity%202021.3.18f1%20Personal%20_DX11_%202023-10-31%2023-31-09.mp4)
 
 ## Product 9: SCRUM planning inschatting 
 

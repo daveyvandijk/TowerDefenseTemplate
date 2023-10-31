@@ -6688,7 +6688,7 @@ MonoBehaviour:
   enemysPrefab:
   - {fileID: 1868467128063258461, guid: 78391545fb454e549be5654e0c6425bc, type: 3}
   - {fileID: 5820180260693423840, guid: 77aee269c0191a34886ba3728508ae2f, type: 3}
-  BaseEnemies: 8
+  BaseEnemies: 6
   enemiesPerSeconds: 1
   timeBetweenWave: 2
   difficultyScalingFactor: 0.75
@@ -6763,7 +6763,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Coins:'
+  m_Text: Coins:5
 --- !u!222 &1673526615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7232,7 +7232,7 @@ MonoBehaviour:
   HPText: {fileID: 595892240}
   CoinsText: {fileID: 1673526614}
   MaxHealth: 10
-  MaxCoin: 100
+  MaxCoin: 5
 --- !u!4 &1930709610
 Transform:
   m_ObjectHideFlags: 0
