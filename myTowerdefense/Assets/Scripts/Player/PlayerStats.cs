@@ -7,6 +7,7 @@ using System;
 
 public class PlayerStats : MonoBehaviour
 {
+    public GameObject DeathScreen;
 
     public Text HPText;
     public Text CoinsText;
@@ -19,11 +20,12 @@ public class PlayerStats : MonoBehaviour
     
 
     public void Start()
-    {
+    {   
+        DeathScreen.SetActive(false);
         Health = MaxHealth;
         Coin = MaxCoin;
         WaypointFollower.AddOnWaypointEndTriggerListener(TakeDamage);
-        //newEnemyHealth.AddonGetCoinsTriggerListener(GetCoins);
+        newEnemyHealth.AddonGetCoinsTriggerListener(GetCoins);
     }
 
     
@@ -31,31 +33,42 @@ public class PlayerStats : MonoBehaviour
     {
        if (Health < 1 )
         {
-            Debug.Log("DEAD");
+            DeathScreen.SetActive(true);
+            Time.timeScale = 0f;   
         }
+        
     }
 
     public void TakeDamage()
     {
-        Debug.Log("take damage");
         Health--;
         UpdateHealthText();  
     }
 
-    //public void GetCoins()
-    //{
-    //    Debug.Log("get coins");
-    //    Coin++;
-    //    UpdateCoinText();
-    //}
+    public void GetCoins()
+    {
+        Coin++;
+        UpdateCoinText();
+    }
+
+    public void DecreaseCoins(int amount)
+    {
+        Coin -= amount;
+        UpdateCoinText();
+    }
+
+    public int GetCoinCount()
+    {
+        return Coin;
+    }
 
     public void UpdateHealthText()
     {
         HPText.text = "Health:" + Health.ToString();
     }
 
-    public void UpdateCoinText()
-    {
+   public void UpdateCoinText()
+   {
         CoinsText.text = "Coins:" + Coin.ToString();
-    }
+   }
 }

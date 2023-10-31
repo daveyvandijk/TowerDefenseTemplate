@@ -2,9 +2,9 @@
 
 
 Mijn game is een simpel spel het gaat als volgs er zijn enenmys die naar het einde lopen over een pad op jouw aan te vallen jij moet jezelf beschermen door torens te plaatsen 
-![not really my game](https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490)
+![my game startscreen](/readmeVisuals/StartschermScreenshot.PNG)
 
-![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
+![dit is mijn game](/readmeVisuals/GameplayScreenshot.PNG)
 
 
 ## Product 1: "DRY SRP Scripts op GitHub"
@@ -12,7 +12,7 @@ Mijn game is een simpel spel het gaat als volgs er zijn enenmys die naar het ein
 Plaats hier minimaal 1 link naar scripts die voldoen aan de eisen van **"Don't Repeat Yourself (DRY)"** en **"Single Responsibility Principle"**.
 Omschrijf hier waarom jij denkt dat je in die scripts aan deze eisen voldoet.
 
-in dit script heb ik een array gebruikt om al mijn checkpoints die mijn enemys moeten volgen.ik heb dat gedaan om alle checkpoints in opteslaan zodat ik niet elke checkpoint apart moet noemen.
+ebruikt om al mijn checkpoints die mijn enemys moeten volgen.ik heb dat gedaan om alle checkpoints in opteslaan zodat ik niet elke checkpoint apart moet noemen.
 [link naar mijn script](/myTowerdefense/Assets/Scripts/Enemy/Path.cs)
 
 
@@ -47,7 +47,7 @@ Zodra je bugs tegenkomt maak je een issue aan op github. In de issue omschrijf j
 Je gebruikt een game design tool om je game design vast te leggen en te communiceren. Daarnaast onderbouw je de design keuzes ten aanzien van “playability” en “replayability” voor je game schriftelijk. 
 
 Voorbeeld van een one page design:
-![](https://external-preview.redd.it/48mnMpA0TbiihGo4HsJiWrJhK72xeTRwV2o70_AKilw.jpg?auto=webp&s=3a1ae18f0e4fba7a465643987cbe9cf409466e53)
+![](/readmeVisuals/BO-onepage.PNG)
 
 Omschrijf per mechanic welke game design keuzes je hebt gemaakt en waarom je dit hebt gedaan.
 
@@ -81,38 +81,8 @@ Omschrijf per mechanic welke game design keuzes je hebt gemaakt en waarom je dit
 
 ## Product 7: Class Diagram voor volledige codebase 
 
-Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github. Evt mag je dit doen m.b.v de [“Mermaid”](https://mermaid.js.org/syntax/classDiagram.html) tool.
+Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github. Evt mag je dit doen m.b.v de [“Mermaid”](https://miro.com/app/board/uXjVNbKDCwI=/) tool.
 
-
-```mermaid
----
-title: Animal example
----
-classDiagram
-    note "From Duck till Zebra"
-    Animal <|-- Duck
-    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
-        +String beakColor
-        +swim()
-        +quack()
-    }
-    class Fish{
-        -int sizeInFeet
-        -canEat()
-    }
-    class Zebra{
-        +bool is_wild
-        +run()
-    }
-
-```
 
 ## Product 8: Prototype test video
 Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je readme wat het idee van de mechanics is geweest wat je wilde testen en laat een korte video van de gameplay test zien. 
@@ -125,7 +95,7 @@ Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory 
 
 Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaar maakt**
 
-[Link naar de openbare trello](https://trello.com/b/w60wkKSU/examen-paraphrenia)
+[Link naar de openbare trello](https://trello.com/b/Q0DNwVbw/towerdefence)
 
 ## Product 10: Gitflow conventions
 

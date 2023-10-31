@@ -8,6 +8,13 @@ public class TowerPlacement : MonoBehaviour
     [SerializeField] private Tower towerPrefab;
     [SerializeField] private TowerSlot[] towerSlots;
 
+    private PlayerStats playerStats;
+
+    private void Start()
+    {
+        playerStats = FindAnyObjectByType<PlayerStats>();          
+    }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -26,7 +33,15 @@ public class TowerPlacement : MonoBehaviour
                         return;
                     }
 
-                    PlaceTower(towerSlotIndex);
+                    if (playerStats.GetCoinCount() >= 5)
+                    {
+                        PlaceTower(towerSlotIndex);
+
+                        playerStats.DecreaseCoins(5);
+                    }
+                    
+
+                    
                 }
             }
         }

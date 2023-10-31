@@ -9,18 +9,19 @@ public class newEnemyHealth : MonoBehaviour
     [SerializeField] private int MaxHealth;
 
     public static event Action onEnemyDestroy;
-    //public static event Action onGetCoins;
+    public static event Action onGetCoins;
    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Projectile"))
         {
             
-            if(Health < 0)
+            if(Health <= 0)
             {
                 onEnemyDestroy?.Invoke();
-                //onGetCoins?.Invoke();
+                onGetCoins?.Invoke();
                 Destroy(gameObject);
+                
             }
         }
     }
@@ -30,9 +31,9 @@ public class newEnemyHealth : MonoBehaviour
         newEnemyHealth.onEnemyDestroy += listener;
     }
 
-   //public static void AddonGetCoinsTriggerListener(Action listener)
-   //{
-   //     newEnemyHealth.onGetCoins += listener;
-   //}
+    public static void AddonGetCoinsTriggerListener(Action listener)
+    {
+        newEnemyHealth.onGetCoins += listener;
+    }
 
 }

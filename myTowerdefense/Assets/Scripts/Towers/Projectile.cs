@@ -26,6 +26,7 @@ public class Projectile : MonoBehaviour
         {
             newEnemyHealth enemyHealth = other.GetComponent<newEnemyHealth>();
             enemyHealth.Health--;
+            Destroy(gameObject);
             
         }
     }

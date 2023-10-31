@@ -16,8 +16,6 @@ public class EnemySpawnPoint : MonoBehaviour
     [SerializeField] private float difficultyScalingFactor = 0.75f;
 
     
-    
-
 
     [SerializeField] private int currentWave = 1;
     [SerializeField] private float timeSincsLastSpawn;
@@ -79,7 +77,17 @@ public class EnemySpawnPoint : MonoBehaviour
 
     private void SpawnEnemy()
     {
-        GameObject preFabToSpawn = enemysPrefab[0];
+        GameObject preFabToSpawn;
+
+        if(currentWave > 6 )
+        {
+            preFabToSpawn = enemysPrefab[1];
+        }
+        else
+        {
+            preFabToSpawn = enemysPrefab[0];
+        }
+
         Instantiate(preFabToSpawn);
     }
 
